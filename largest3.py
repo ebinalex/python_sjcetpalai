@@ -1,0 +1,13 @@
+a=10
+b=15
+c=11
+if(a>b):
+    if(a>c):
+        print(a)
+    else:
+        print(c)
+else:
+    if(b>c):
+        print(b)
+    else:
+        print(c)                       
