@@ -8,7 +8,7 @@ def index():
 
 @app.route("/home")
 def home():
-    return"welcome to thala food court"
+    return render_template("home.html")
 @app.route("/contact")
 def contact():
     return"Mr.Thala,Puthoor House,Pala,Kottayam"
@@ -16,5 +16,5 @@ def contact():
 def about():
     return"thala cooking workshop is the most perfect solution that can be study from the world"        
 if(__name__=="__main__"):
-    app.run()
+    app.run(debug=True)
 
